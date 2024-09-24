@@ -1,0 +1,1 @@
+# NGINX variable substitution example
