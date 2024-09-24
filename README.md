@@ -8,5 +8,5 @@ Environment variables in nginx.conf are replaced using the `envsubst` command by
 
 - `index.html` says "hello"
 - We've specified a filter in `nginx.conf` to replace "hello" with `${GREETING}`
-- The `Dockerfile` supplies `${GREETING}` with the default value "hi"
-- We replace it with "buenas" in `docker-compose.yml`
+- The `Dockerfile` supplies the environment variable with a default value "hi"
+- The `docker-compose.yml` file supplies the environment variable from our `.env` file.

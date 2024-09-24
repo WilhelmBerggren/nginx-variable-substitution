@@ -4,6 +4,6 @@ services:
     build: .
     environment:
       - PORT=8080
-      - GREETING=buenas
+      - GREETING=${GREETING}
     ports:
       - "8080:8080"
